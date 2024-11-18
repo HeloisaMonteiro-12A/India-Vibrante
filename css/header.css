@@ -1,0 +1,83 @@
+@import url(./assets/global.css);
+
+:root {
+    font-size: 62.5%;
+    --green: #8f9044;
+    --yellow: #f8a523;
+    --orange: #fc8020;
+    --red: #cf1500;
+    --dark-grey: #352f3d;
+    --blue: #211b74;
+    --light-purple: #8784d0;
+    --white: #fff;
+    --fundo: #fff9ed;
+    --home-bg: url(../assets/bandeira.jpeg);
+    --logo: url(../assets/logo.png);
+}
+
+header {
+    height: 24rem;
+}
+
+header {
+    height: 12.2rem;
+    display: flex;
+    align-items: center;
+    padding-inline: 7.2rem;
+    gap: 4.3rem;
+}
+
+header ul {
+    display: flex;
+    gap: 5.4rem;
+}
+
+header ul,
+header li {
+    list-style: none;
+}
+
+header a {
+    color: var(--dark-grey);
+    text-decoration: none;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+header a.active {
+    color: #cf1500;
+    font-weight: 700;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.logo{
+    width: 25.5rem;
+    height: 12rem;
+    padding: 2.5rem;
+}
+
+.logonome{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-family: "Rakkas", sans-serif;
+    font-size: 4rem;
+    color: var(--blue);
+    max-width: 20rem;
+    margin-bottom: 3.5rem;
+    margin-block: 3.5rem;
+    text-align:justify;
+    line-height: 125%;
+}
+
+ul{
+    margin-left: 63.5rem;
+    margin-block: 3.5rem;
+    margin-bottom: 3.5rem;
+}

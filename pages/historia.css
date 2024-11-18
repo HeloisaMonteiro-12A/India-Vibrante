@@ -1,0 +1,43 @@
+@import "../css/global.css";
+@import "../css/header.css";
+
+:root {
+    font-size: 62.5%;
+    --green: #8f9044;
+    --yellow: #f8a523;
+    --orange: #fc8020;
+    --red: #cf1500;
+    --dark-grey: #352f3d;
+    --blue: #211b74;
+    --white: #fff;
+    --fundo: #fff9ed;
+}
+
+main {
+    margin-left: 10.2rem;
+    margin-top: 6.3rem;
+}
+
+main h1 {
+    font-size: 4.8rem;
+    color: var(--dark-grey);
+    line-height: 125%;
+    margin-bottom: 1.6rem;
+}
+
+main p {
+    font-size: 1.8rem;
+    color: var(--dark-grey);
+    max-width: 64.8rem;
+    line-height: 160%;
+}
+
+.logo{
+    width: 25.5rem;
+    height: 15.75rem;
+    padding: 2.5rem;
+}
+
+body {
+    background-color: var(--fundo);
+}

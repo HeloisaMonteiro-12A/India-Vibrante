@@ -1,0 +1,78 @@
+@import "./css/global.css";
+@import "./css/header.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rakkas", serif;
+    font-family: "Mali", serif;
+    font-family: "Open Sans", serif;
+}
+
+main {
+    height: calc(100vh - 12.2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: var(--grey-2);
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+}
+
+main a {
+    display: block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--blue);
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.4rem;
+    border: 2px solid var(--dark-grey);
+    padding: 1.2rem 3.2rem;
+    border-radius: 3.5rem;
+}
+
+main a:hover {
+    color: var(--white);
+    background: var(--blue);
+    transition: .7s;
+}
+
+p {
+    font-family: "Mali", serif;
+    font-size: 3.0rem;
+    color: #046a38;
+    max-width: 55.5rem;
+    margin-right: rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+strong{
+    font-family: "Mali", serif;
+    font-size: 3.500rem;
+}
+
+h1{
+    font-family: "Rakkas", sans-serif;
+    font-size: 4rem;
+    color: var(--blue);
+    max-width: 20rem;
+    margin-bottom: 3.5rem;
+    margin-block: 3.5rem;
+    text-align:justify;
+    line-height: 125%;
+    
+}
+
+ul{
+    margin-left: 63.5rem;
+    margin-block: 3.5rem;
+    margin-bottom: 3.5rem;
+}

@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rakkas", serif;
+    font-family: "Mali", serif;
+    font-family: "Open Sans", serif;
+}
+
+:root {
+    font-size: 62.5%;
+    --green: #8f9044;
+    --yellow: #f8a523;
+    --orange: #fc8020;
+    --red: #cf1500;
+    --dark-grey: #352f3d;
+    --blue: #211b74;
+    --white: #fff;
+    --fundo: #fff9ed;
+    --home-bg: url(../assets/bandeira.jpeg);
+    --logo: url(../assets/logo.png);
+}
+
+body {
+    font-size: 1.6rem;
+    background-image: var(--home-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100svh;
+}
