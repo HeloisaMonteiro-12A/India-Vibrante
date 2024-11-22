@@ -97,3 +97,10 @@ strong{
     font-family: "Mali", serif;
     font-size: 2rem;
 }
+.h1{
+    align-items: center;
+ }
+
+h2 {
+    text-align: center;
+}
