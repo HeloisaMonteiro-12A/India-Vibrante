@@ -1,10 +1,11 @@
-@import url(./assets/global.css);
+@import url(./css/global.css);
 
 :root {
     font-size: 62.5%;
     --green: #8f9044;
     --yellow: #f8a523;
     --orange: #fc8020;
+    --dark-orange: #e94e1b;
     --red: #cf1500;
     --dark-grey: #352f3d;
     --blue: #211b74;
@@ -13,10 +14,6 @@
     --fundo: #fff9ed;
     
     --logo: url(../assets/logo.png);
-}
-
-header {
-    height: 24rem;
 }
 
 header {
@@ -58,11 +55,6 @@ nav li:hover {
     width: 25.5rem;
     height: 12rem;
     padding: 2.5rem;
-}
-
-.logonome{
-    display: flex;
-    align-items: center;
 }
 
 h1{

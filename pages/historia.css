@@ -21,7 +21,34 @@ main {
 
 main h1 {
     font-size: 4.8rem;
-    color: var(--dark-grey);
+    color: var(--dark-orange);
+    line-height: 125%;
+    margin-bottom: 1.6rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-family: "Mali", serif;
+    font-size: 3.0rem;
+    color: #046a38;
+    max-width: 55.5rem;
+    margin-right: rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.historia{
+    font-family: "Mali", serif;
+    font-size: 2.555rem;
+}
+
+main h2{
+    font-size: 2rem;
+    font-family: "Mali", serif;
+    color: var(--blue);
     line-height: 125%;
     margin-bottom: 1.6rem;
 }
@@ -31,6 +58,9 @@ main p {
     color: var(--dark-grey);
     max-width: 64.8rem;
     line-height: 160%;
+    font-family: "Mali", serif;
+    margin-bottom: 3.5rem;
+    text-align: justify;
 }
 
 .logo{
@@ -41,4 +71,29 @@ main p {
 
 body {
     background-color: var(--fundo);
+}
+
+a{
+    font-family: "Open sans", sans-serif;
+}
+
+header a.active {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+h1{
+    font-family: "Rakkas", sans-serif;
+    font-size: 4rem;
+    color: var(--blue);
+    max-width: 20rem;
+    margin-bottom: 3.5rem;
+    margin-block: 3.5rem;
+    text-align:justify;
+    line-height: 125%;
+}
+
+strong{
+    font-family: "Mali", serif;
+    font-size: 2rem;
 }
